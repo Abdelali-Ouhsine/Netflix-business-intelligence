@@ -122,15 +122,3 @@ This project demonstrates:
 - Data visualization best practices  
 - Dashboard storytelling and reporting  
 """
-
-output_path = "/mnt/data/README.md"
-
-pypandoc.convert_text(
-    readme_content,
-    "md",
-    format="md",
-    outputfile=output_path,
-    extra_args=['--standalone']
-)
-
-output_path
