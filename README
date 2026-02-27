@@ -1,0 +1,124 @@
+📊 Netflix Catalog Analysis – Data Analytics Project
+📌 Project Context
+As a Data Analyst working for a streaming platform, the objective of this project is to analyze the Netflix catalog in order to help management better understand:
+📈 Content trends and performance
+🎬 Distribution of Movies vs TV Shows
+🌍 Production countries and genres
+🔞 Age classification of content
+📅 Evolution of the catalog over time
+This project covers the entire analytical chain: data exploration, cleaning, preparation, visualization, business insights, and dashboard creation.
+The final deliverables are:
+A complete analytical contribution using Python
+An interactive dashboard built with Power BI
+🎯 Project Objectives
+Explore and analyze the Netflix dataset using Python and Pandas
+Produce clear and relevant visualizations using Matplotlib and Seaborn
+Answer key business questions about the content catalog
+Identify important trends and patterns
+Prepare a clean dataset for a future Power BI interactive dashboard
+🛠 Tools & Technologies
+Python
+Pandas
+Matplotlib
+Seaborn
+Power BI
+📅 Project Information
+Work Method: Individual
+Duration: 5 working days
+Period: 02/23/2026 – 02/27/2026 (before 5:00 PM)
+🗂 Project Stages
+1️⃣ Data Exploration (EDA)
+🎯 Objective
+Understand the dataset before any transformation.
+🔍 Key Actions
+Inspect structure and data types (info(), describe())
+Detect missing values (e.g., director, country, rating)
+Analyze distributions and frequencies:
+Movies vs TV Shows
+Genres
+Countries
+Identify duplicates and anomalies
+Create initial visualizations:
+Histograms
+Countplots
+Boxplots
+💡 Light cleaning may be performed during this phase for better visualization, without permanently modifying the dataset.
+2️⃣ Data Cleaning & Preparation
+🎯 Objective
+Prepare a clean and structured dataset for analysis and dashboard integration.
+🔧 Key Actions
+Handle missing values:
+Remove rows OR
+Replace with "Unknown" or Null
+Remove duplicates
+Transform multi-value columns:
+country
+listed_in
+Create derived columns:
+year_added
+month_added
+day_added
+Duration in minutes
+Standardize formats:
+Dates
+Duration
+Content type
+💡 All transformations ensure consistency and facilitate analysis and visualization.
+3️⃣ Business Analysis & Visualizations
+🎯 Objective
+Answer business questions and identify trends.
+📌 Key Business Questions
+What is the distribution by age classification (rating)?
+What is the proportion of Movies vs TV Shows (type)?
+How many contents were added each year?
+How has the catalog evolved over time (Movies vs TV Shows by year)?
+How many TV Shows were produced between 2011 and 2021?
+Which countries produce the most content?
+What is the distribution by country and age classification?
+What are the most frequent genres?
+What are the dominant content categories?
+📊 Recommended Visualizations
+Bar Charts → Type, Rating, Genre, Country
+Pie Charts → Movies vs TV Shows proportion
+Line Charts → Evolution over time
+Countplots / Heatmaps → Multi-variable analysis
+Combined charts → Comparative insights
+💡 All charts include clear titles, labels, and annotations for readability.
+4️⃣ Business Insights & Executive Summary
+🎯 Objective
+Translate data into actionable insights.
+📈 Deliverables
+Identification of:
+Top genres
+Top production countries
+Dominant content types
+Clear answers to business questions
+Executive summary for management
+Actionable recommendations based on trends
+5️⃣ Power BI Dashboard
+🎯 Objective
+Create an interactive dashboard for decision-making.
+🔄 Steps
+Import cleaned dataset (Python → CSV → Power BI)
+Apply transformations in Power Query if needed
+Build interactive dashboard with filters:
+Content Type
+Country
+Genre
+Year Added
+Highlight key KPIs and trends
+💡 All transformations must remain consistent with Python processing to avoid discrepancies.
+📊 Expected Outcomes
+At the end of this project:
+The Netflix catalog is fully analyzed
+Trends and patterns are identified
+Business questions are answered
+A clean dataset is ready for reporting
+An interactive Power BI dashboard supports strategic decisions
+🚀 Project Value
+This project demonstrates:
+End-to-end data analytics workflow
+Data cleaning and transformation skills
+Business-oriented analytical thinking
+Data visualization best practices
+Dashboard creation and storytelling
