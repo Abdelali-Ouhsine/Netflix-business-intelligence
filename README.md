@@ -1,7 +1,3 @@
-# Create the README.md file using pypandoc
-import pypandoc
-
-readme_content = """
 # 📊 Netflix Catalog Analysis – Data Analytics Project
 
 ## 📌 Project Context
